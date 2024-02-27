@@ -3,9 +3,11 @@ Feature: Sign up
     Want sign up to the platform/system
     To allow access to specific functions
 
-  Background: 
+Background: 
     Given I am in chrome browser
 
+@steps
+  
   Scenario Outline: Successfully sign up
     Given I am in sign up view
     When Complete sign up form with "<Name>" and "<Lastname>"

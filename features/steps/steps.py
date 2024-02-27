@@ -2,7 +2,7 @@ from behave import given, when, then
 
 
 @given("I am in chrome browser")
-def step_given(context):
+def background_given(context):
     pass
 
 
@@ -27,8 +27,10 @@ def step_given(context):
     pass
 
 
-@when("Complete sign up form with {Name} and {Lastname}")
+@when("Complete sign up form with {name} and {lastname}")
 def step_when(context, name, lastname):
+    context.name = name
+    context.lastname = lastname
     pass
 
 
