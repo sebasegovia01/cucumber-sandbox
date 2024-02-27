@@ -10,6 +10,8 @@ https://www.youtube.com/watch?v=7akUXWrAV5k
 
 ### Install
 
+`cd features`
+
 `pip install -r requirements.txt`
 
 
